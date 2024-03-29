@@ -11,7 +11,7 @@ spec:
         repoType: helm
         url: https://presslabs.github.io/charts
         chart: mysql-operator
-        version: "0.4.0"
+        version: "0.7.2"
     - name: mysql-cluster
       type: raw
       dependsOn:
