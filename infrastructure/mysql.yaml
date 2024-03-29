@@ -9,9 +9,9 @@ spec:
       type: helm
       properties:
         repoType: helm
-        url: https://presslabs.github.io/charts
-        chart: mysql-operator
-        version: "0.7.2"
+        #url: https://presslabs.github.io/charts
+        chart: bitpoke/mysql-operator
+        version: "0.6.3"
     - name: mysql-cluster
       type: raw
       dependsOn:
